@@ -1,0 +1,33 @@
+{
+    "client_id": "c1jnw0-iJtFEGRNNgNAfSSs7qV9z6jxs-uzNWiCCPik",
+    "client_secret": "",
+    "registration_access_token": "eT9DSwsnKK0fDsa-xydI3FT_TyQYkQ63YeZERG9hRoo",
+    "registration_client_uri": "https:\/\/localhost\/openemr\/oauth2\/default\/client\/yNlVkUI8iAlTPM-4zSX6XA",
+    "client_id_issued_at": 1767754596,
+    "client_secret_expires_at": 0,
+    "client_role": "patient",
+    "contacts": [
+        "admin@example.com"
+    ],
+    "application_type": "public",
+    "client_name": "localhost Public PKCE Auth\u2011Code Client",
+    "redirect_uris": [
+        "https:\/\/opensourcedemr.us\/modules\/oe-module-api-explorer\/oeApiExplorer.php"
+    ],
+    "post_logout_redirect_uris": [
+        "https:\/\/localhost\/openemr\/oauth2\/default\/logout.php"
+    ],
+    "token_endpoint_auth_method": "client_secret_basic",
+    "response_types": [
+        "code"
+    ],
+    "grant_types": [
+        "authorization_code"
+    ],
+    "scope": "openid offline_access api:oemr api:fhir api:port patient\/encounter.read patient\/patient.read patient\/Patient.read patient\/Encounter.read patient\/AllergyIntolerance.read patient\/CareTeam.read patient\/MedicationRequest.read",
+    "dsi_type": "none",
+    "jwks_uri": null,
+    "jwks": null,
+    "pem_private": false,
+    "pem_public": false
+}
